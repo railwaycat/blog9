@@ -1,0 +1,9 @@
+---
+title: 404
+layout: page
+comments: false
+---
+
+Nothing found (-_-)ゞ゛
+
+But you still can have a [look around](/index.html)

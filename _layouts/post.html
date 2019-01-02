@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape_once }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+    <br>
+    {% if page.yun %}
+    {{ page.yun }}<br>
+    {% endif %}
+    Tags:
+    {% if post %}
+      {% assign tags = post.tags %}
+    {% else %}
+      {% assign tags = page.tags %}
+    {% endif %}
+    {% for tag in tags %}
+    <a href="/archive.html#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    </p>
+    <hr>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content | join_chinese }}
+  </div>
+
+  <hr>
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>

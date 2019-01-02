@@ -1,0 +1,26 @@
+
+<footer>
+  <hr>
+  {% if site.author %}
+    {{ site.author | escape_once }}
+  {% else %}
+    {{ site.title | escape_once }}
+  {% endif %}
+  {% if site.email %}
+    <a href="mailto:{{ site.email }}">&lt;{{ site.email }}&gt;</a>
+  {% endif %}
+
+  <ul>
+    {% if site.github_username %}
+    <li>
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
+
+    {% if site.twitter_username %}
+    <li>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    {% endif %}
+  </ul>
+</footer>

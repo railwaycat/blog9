@@ -1,0 +1,26 @@
+---
+layout: home
+permalink: index.html
+---
+
+<div class="home">
+  <ul>
+    <li><a href="https://www.obelus.net">Home</a></li>
+    <li><a href="/archive.html">Archive</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="{{ "/feed.xml" | relative_url }}">RSS</a></li>
+  </ul>
+
+  <hr>
+  <h2 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

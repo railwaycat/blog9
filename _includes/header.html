@@ -1,0 +1,16 @@
+<header class="site-header" role="banner">
+
+  <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape_once }}</a>
+  {% if page.previous.url %}
+    -- <a class="prev" href="{{page.previous.url}}">&laquo; 前一篇</a>
+  {% endif %}
+  {% if page.next.url %}
+    {% if page.previous.url %}
+    :
+    {% else %}
+    --
+    {% endif %}
+    <a class="next" href="{{page.next.url}}">后一篇 &raquo;</a>
+  {% endif %}
+
+</header>
