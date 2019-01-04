@@ -1,0 +1,50 @@
+---
+layout: post
+title: My Setup Mid 2016
+date: '2016-07-15 23:04:22'
+yun: 删
+tags:
+- edc
+- the_setup
+---
+
+#### 硬件
+- MacBook Pro 13 Early 2015 (personal and office)
+- Alienware Area 51 R2 (games)
+- Office
+	- Dual Dell U2212
+	- Realforce 87u
+	- Apple Magic Trackpad 2
+	- Apple Mighty Mouse
+- Home 
+	- Dell P2415Q
+	- Apple Bluetooth keyboard
+	- Apple Magic Trackpad 2
+	- HHKB Pro 2
+	- Logitech MX Master
+- iPhone 6s plus
+- Apple Watch
+- Suunto Ambit3 Peak
+- Sony PHA-1
+- Shure se846
+- Bose qc20
+- Beats Solo 2 wireless
+
+#### 常用软件
+- Emacs (and Emacs mac port on macOS of course)
+- mosh
+- tmux
+- 1Password
+- Alfred
+- CodeRunner
+
+#### 杂
+- 5.11 rush delivery Lima Messenger bag
+- Mystery Ranch Booty bag
+- Mystery Ranch ASAP
+- Bellboy Note Sleeve
+- Benchmade Mini Griptillian (G10 and CPM-20CV)
+- Emerson Commander and CQC-14
+- Surefire E1D
+- Streamlight sidewinder compact
+- Platinum Preppy fountain pen

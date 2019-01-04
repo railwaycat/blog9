@@ -1,0 +1,17 @@
+---
+title: 字体更新
+layout: post
+date: 2014-05-09 16:52:07
+yun: 佳
+guid: urn:uuid:d7fc2149-f31e-440e-92da-7be940004c2e
+comments: true
+tags: [fonts]
+---
+
+两个变化：
+
+
+- 加进了 Simsun，这样在 Windows 的机器上会是优先显示成点阵的中文字体。至少我比较偏好这样的效果
+
+- 把正文的英文字体和等宽字体换成了 PT 族的…嗯，也是没办法的办法，这样至少在 Windows 上的显示效果会稍微好一点。  
+曾经用 PT Mono 作为终端字体挺长时间，我还是满意它的样子的（´・｀ ）

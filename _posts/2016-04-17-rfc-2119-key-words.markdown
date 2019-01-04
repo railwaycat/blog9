@@ -1,0 +1,14 @@
+---
+layout: post
+title: RFC 2119 - Key Words
+date: '2016-04-17 04:57:27'
+yun: 篠
+tags:
+- rfc
+---
+
+https://tools.ietf.org/html/rfc2119
+
+规定了 must/must not/should/should not/may 的使用。
+
+我知道肯定会有一篇 RFC 来提这些东西，不过没想到时间会这么靠后`(ｰ ｰ;)`

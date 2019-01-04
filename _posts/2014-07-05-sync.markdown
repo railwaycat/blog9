@@ -1,0 +1,30 @@
+---
+title: 同步方案
+layout: post
+date: 2014-07-05 14:25:30
+yun: 微
+guid: urn:uuid:f8a43f10-4980-4c82-9afb-c788a53db1e9
+comments: true
+tags: [macos, nas, unison]
+---
+最近发生的一些事情让我近乎病态地放弃对所有第三方的文件存储服务的信任。说得再好听的用户协议也会在利益和集体权益的面前轻松败下阵来，与其把自己的私人文件安全寄托在他人的人品上，还不如直接抓在自己手里。
+
+所以目前 Dropbox 出局，BTSync 在没有开源之前也是出局状态。至于微软的  OneDrive 和 Google 的 Google Drive…之前也没在考虑范围啊。
+
+VPS 的话，加密分区是不够的，因为如果假设 VPS 提供商不可信的话，跑在虚拟机里的 VPS 安全也是无法保证的；使用本地加密再同步的方法可以考虑，但也得有合适的工具支持才行。
+
+我目前的方案是 [unison](http://www.cis.upenn.edu/~bcpierce/unison/index.html) + [NAS](http://www.amazon.com/Synology-DiskStation-Diskless-Network-Attached/dp/B005YW7OLM)。
+
+首先把 Time Machine 的任务全部丢给 [Time Capsule](https://www.apple.com/airport-time-capsule/)，顺便还能得到 11.ac 的连接速度。
+
+其次是配置 NAS。打开群晖的 ssh 和 “启动家目录服务”，然后按照[这个说明](http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc)安装 ipkg。
+
+我大体是按照[这个说明](http://www.multigesture.net/articles/how-to-compile-unison-for-a-synology-ds212/)安装的 unison，不过为了图省事把二进制的 `unison` 直接丢在 `/usr/bin` 了。
+
+最后是配置 unison。unison 的配置还是挺直白的，把要同步的目录加进 `path` 然后把 `.git` `.DS_Store` 还有 `@eaDir` 一类的目录名放进 `ignore` 就行了。需要提一下的是 unison 的 ssh 地址规则跟常见的有点区别，是 `ssh://<username>@<hostname or IP>:<port>/<absolute path>`。
+
+我有在路由器上加端口映射，这样在外面也可以用公网 IP 同步家里的 NAS。这边的 ISP 虽然说是用的 DHCP，但至少到目前的观察，一次 DHCP 请求到的 IP 地址至少大半年都不会有变化…
+
+也考虑过群晖 DSM 系统的安全性问题，不过目前来说一个跑在本地防火墙后面的系统还是可以信任的；如果之后某天有这方面的顾虑的话用一台 [HP MicroServer](http://www8.hp.com/us/en/products/proliant-servers/index.html#!view%3Dgrid%26page%3D1%26facet%3DProLiant-MicroServer) 替换掉也不是很难的事情。
+
+unison 虽然不像 Dropbox 那样是一直跑在后台自动同步的 daemon，不过到目前为止是能满足我的需求的，而且如果是在外面用手机共享的网络或者在公司的话，我也不想让它在每个文件修改的时候都同步一下。

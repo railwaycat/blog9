@@ -1,0 +1,49 @@
+---
+title: Fedora 20 上编译安装 svn 1.6.x
+layout: post
+date: 2014-05-01 16:42:19
+yun: 东
+guid: urn:uuid:d55eb957-c556-4f04-98b1-d2b4fd4b4e9b
+comments: true
+tags: [linux, svn]
+---
+
+svn 的向下兼容还真是个麻烦事情。
+
+代码服务器上的版本是 1.6，CentOS6 自带的上古版本，而 Fedora 20 仓库里的 svn 是 1.8。至于 1.6，已经连 rpm 包都找不到了。
+
+猜想如果是 port 或者 portage 之类的源代码包管理还能强制降级安装，但 yum 这种二进制包管理如果仓库里没有就真没办法了。
+
+于是单独编译了一个放在 `/opt/svn16` 下面，用 `alias` 去引用。
+
+首先从一开始就决定尽量不依赖 fc20 自己的 devel 包，因为对于 svn 1.6 来说，大部分都太新了。另外既然打算把 svn 1.6 的东西都丢到 `/opt` 下，原则上也决定了它不应该跟系统的包有太大关联。
+
+还好 svn 在这方面支持还是不错的，对于必须依赖的几个包，`apr`, `apr-util`, `neon` 三个包基本上放到 svn 的源代码目录下面就可以。
+
+以下版本是经过实践肯定可以编译通过的:
+
+[svn 1.6.23](http://archive.apache.org/dist/subversion/subversion-1.6.23.tar.gz)  
+[apr 1.5.1](http://apache.mirrors.tds.net//apr/apr-1.5.1.tar.gz)  
+[apr-util 1.5.3](http://apache.mirrors.tds.net//apr/apr-util-1.5.3.tar.gz)  
+[sqlite 3.6.13 amalgamation](http://www.sqlite.org/sqlite-amalgamation-3.6.13.tar.gz)  
+[neon 0.29.0](http://www.webdav.org/neon/neon-0.29.0.tar.gz)  
+
+编译步骤基本可以直接跟着 `./configure` 的提示来…
+
+首先是 apr 和 apr-util：解压缩，之后分别
+
+    mv apr-1.5.1 subversion-1.6.23/apr
+    mv apr-util-1.5.3 subversion-1.6.23/apr-util
+
+然后是 sqlite：解压缩，之后
+
+    mkdir subversion-1.6.23/sqlite-amalgamation
+    cp sqlite-3.6.13/sqlite3.c subversion-1.6.23/sqlite-amalgamation
+
+最后是 neon：还是解压缩，之后
+
+    mv neon-0.29.0 subversion-1.6.23/neon
+
+这样 `./configure --prefix=/opt/svn16` 能通过基本上编译安装也就没啥问题了。中途有其他 devel 包缺少的话顺便用 yum 装上就行。
+
+有一个没搞定的地方是 DB4 的支持，目测不能用上面这类“干净”的方法解决问题，先不管他…总之我目前也用不到就是了(・ω・)ノ
