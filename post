@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+# -*- mode: ruby; -*-
+
+def new_post(title, place)
+  time = Time.now
+  filename = "#{place}/" + time.strftime("%Y-%m-%d-") + title + '.markdown'
+  if File.exists? filename then
+    puts "Post already exists: #{filename}"
+    return
+  end
+  date = `date '+%Y-%m-%d %H:%M:%S %z' | tr -d "\n"`
+  
+  # months = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
+  days = ["东", "冬", "江", "支", "微", "鱼", "虞", "齐", "佳", "灰", "直", "文", "元", "寒", "删", "铣", "篠", "巧", "皓", "哿", "马", "养", "梗", "迥", "有", "宥", "沁", "勘", "艳", "卅", "世"]
+  # gan = ["庚", "辛", "壬", "癸", "甲", "乙", "丙", "丁", "戊", "己"]
+  # zhi = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"]
+  # yun = gan[time.year%10] + zhi[time.year%12] + " " + months[time.month - 1] + days[time.day-1]
+  yun = days[time.day-1]
+  
+  File.open(filename, "wb") do |f|
+    f << <<-EOS
+---
+title: #{title}
+layout: post
+date: #{date}
+yun: #{yun}
+comments: true
+tags: 
+---
+
+
+EOS
+  if RUBY_PLATFORM.include? "darwin"
+    system("echo \"#{filename}\" | pbcopy")
+  end
+  puts "created #{filename}"
+  # `git add #{filename}`
+  # `open -a Byword #{filename}`
+  # `el #{filename}`
+end
+
+prepath = "."
+if ARGV.length > 1
+  prepath = ARGV[1]
+end
+
+new_post(ARGV[0], prepath)
