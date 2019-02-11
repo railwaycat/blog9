@@ -30,6 +30,7 @@ tags:
 
 
 EOS
+  end
   if RUBY_PLATFORM.include? "darwin"
     system("echo \"#{filename}\" | pbcopy")
   end
