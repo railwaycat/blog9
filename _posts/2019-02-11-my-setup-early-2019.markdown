@@ -1,0 +1,69 @@
+---
+title: My Setup Early 2019
+layout: post
+date: 2019-02-11 14:44:03 -0500
+yun: 直
+comments: true
+tags: edc the_setup
+---
+
+原来预计的是每年一更，不过现在看起来距离[上次](/2017/06/15/my-setup-mid-2017.html)已经超过一年了。
+
+### 日常硬件
+- MacBook Pro 13 2018 (for personal and office)
+- Alienware Area 51 R2 (for games)
+- Dell Precision T3420 SFF (Linux workstation)
+- Office
+  - Dell P2415Q
+  - Apple Wireless Keyboard
+  - Apple Magic Trackpad 2
+  - HHKB Pro 2
+- Home
+  - Dell U2417H
+  - Apple Magic Keyboard
+  - Apple Magic Trackpad 2
+  - HHKB Pro BT
+  - HHKB Pro 2 (Windows)
+  - Logitech MX Master 2S (Windows)
+- iPhone Xs
+- An automatic watch
+- Sunnto 9
+- Sony WH-1000X M3
+
+### 日常软件
+- Emacs (Emacs mac port on macOS and `emacs -nw` on other OS)
+- mosh
+- tmux
+- 1Password
+- Launchbar
+- Safari (for personal)
+- Chrome (for office)
+
+### EDC 和其他杂物
+- Fjallraven Raven 20L
+- Benchmade Mini Griptilian
+- Emerson Bulldog
+
+### 一点笔记
+#### 硬件
+硬件上最主要的变化是添置了一台 Linux workstation。我很喜欢把所有实质性的开发工作都放在 headless workstation 上的做法。这样可以用 tmux 和 mosh 的结合来在远端保持一个始终一致始终在线的工作环境，不管自己肉身面对的界面端怎么变化，只要 mosh 到工作站上 attach 到 tmux 的 session 里，就能从之前离开的地方继续工作，连光标的位置都不会变化。而且编译速度也是更快了。这样一来笔记本就变成了纯交互的终端和以及负担资料的收集整理任务，在这个定位上 macOS 是当之无愧的「最好用」了，虽然我也经常会想一想要不要下次换成 Thinkpad x1c…
+
+主力的笔记本变成了 13 寸，牙膏厂的八代低压 i7 终于变成四核了…日常使用中是够用了，换成 13 寸笔记本带来的重量和体积的平衡可以让我在所有情况下始终只面对同一台熟悉的机器，不管是日常上班下班还是背包旅行。另外目前 13 寸的 DPI 我也很喜欢：Apple 最新的产品线上，15 寸笔记本的默认 "Looks like" 分辨率是 1680x1050，我感觉不是不能用，但字有点小，办公室里这种完美光照和完美坐姿下勉强还行，其他时候用时间长了眼睛会很吃力。13 寸默认的分辨率是 1440x900，显示文字比 15 寸略大比 12 寸略小，实在是个很舒适的尺寸。
+
+Windows 的机器几乎没有变化，毕竟定位游戏机。只不过预计到明年再更新这个文档的时候可能不得不去换一张新的显卡。
+
+外设上没有大的变化。收了一个二手的 HHKB Pro BT，算是拉平了家里和办公室的手感一致性，虽然我用 Magic Keyboard 的时候也很多。被诟病很多的掉线/粘键问题我也遇到了几次，但几率不算高也没有那么烦人，除非运气背到正好卡在回车或者删除这种功能键上。我怀疑这应该是 MacBook 这边蓝牙的问题，用苹果自家的蓝牙键盘的时候我也遇到过。
+
+作为运动手表，Suunto 9 很好用，完全没有之前 Spartan Ultra 那种半成品的别扭感，新的 iOS App 也跟上了。
+
+#### 软件
+日常所用的软件几乎没有变化，主要时间面对的都是 mosh 到远端 Linux 上 tmux 里的 `emacs -nw`。Emacs 的配置文件大改过一次，用上了 `use-package`，这样往新机器上丢配置的时候省掉了手工去装一遍各个包的过程，稍微省了点力气。
+
+macOS 上的 Launcher 从 Alfred 换成了 Launchbar。更换单纯是图新鲜感，实际上经过了短暂的适应之后，感觉两个软件在使用和功能上并没有显著的差别，Applescript 写的常用的 workflow 都可以很轻松的 port 成 Launchbar 的 Action。反正两个在开发文档上都短缺的半斤八两。
+
+最近半年倒是开始用了一些传统工具的现代化替代品：搜索工具从 ack 到 ag (the silver searcher) 再到 rg (ripgrep)。rg 是真的很快，特别是搜索很大的目录的时候，有肉身能够察觉的性能提升，配合 helm-ag，有些时候比 gtags 还要顺手一些。fzf 我只用它来搜索 shell 历史，交互上是方便了很多，不过并没有感觉有本质的差别。bat，cat 的替代品，需要查看 diff 一类的东西的时候很好用，普通的文件上感觉差别并不很大，太华丽的边框和宽行号反而限制了显示范围。
+
+#### 杂物
+用 20L 的北极狐 Raven 包换下了 Direct Action 的龙蛋 Mk II，算是更「灰」了一点。Raven 包偏小，一个笔记本一本书一件外套就可以塞到满了，负重也一般，也就通勤的时候用还可以。如果外出时间长的话，还是得用回神秘农场的 ASAP 或者龙蛋。
+
+随身的小刀换成了更便宜也更不起眼的 Benchmade Mini Griptilian。
