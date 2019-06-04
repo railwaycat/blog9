@@ -16,7 +16,7 @@ permalink: /about.html
 不认识我但希望取得联系的，请直接[电邮](mailto:xin@obelus.net)
 
 ¶  
-[My setup mid 2016](/2016/07/15/my-setup-mid-2016.html) and [My setup mid 2017](/2017/06/15/my-setup-mid-2017.html), if you are interested.
+[My setup mid 2016](/2016/07/15/my-setup-mid-2016.html), [My setup mid 2017](/2017/06/15/my-setup-mid-2017.html) and [My setup early 2019](/2019/02/11/my-setup-early-2019.html), if you are interested.
 
 ¶  
 感觉有必要提一下，现在这个 blog 不是因为某种原因 CSS 文件丢了或者没有成功加载，而是我的 no-CSS [实践](/2017/02/13/blog-engin-3.html)
