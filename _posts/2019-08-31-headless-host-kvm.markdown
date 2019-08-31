@@ -76,34 +76,31 @@ qemu-img resize workspace.img 60G
 这里使用到两个文件
 
 1. meta-data, 这里用来修改机器名字
-
-``` shell
-% cat meta-data
-local-hostname: ws-u1
-```
+    ```shell
+    % cat meta-data
+    local-hostname: ws-u1
+    ```
 
 2. user-data，这里用来做（guest OS 里）用户的相关设置
+    ``` shell
+    % cat user-data
+    users:
+      - name: username
+        ssh-authorized-keys:
+          - [对应的 ssh public key 文件内容]
+        sudo: ['ALL=(ALL) NOPASSWD:ALL']
+        groups: sudo
+        shell: /bin/bash
 
-``` shell
-% cat user-data
-users:
-  - name: username
-    ssh-authorized-keys:
-      - [对应的 ssh public key 文件内容]
-    sudo: ['ALL=(ALL) NOPASSWD:ALL']
-    groups: sudo
-    shell: /bin/bash
-
-runcmd:
-  - echo "AllowUsers username" >> /etc/ssh/sshd_config
-  - systemctl restart ssh
-```
+    runcmd:
+      - echo "AllowUsers username" >> /etc/ssh/sshd_config
+      - systemctl restart ssh
+    ```
 
 3. 用上面两个文件创建一个磁盘镜像
-
-``` shell
-genisoimage -output user.iso -volid cidata -joliet -rock user-data meta-data
-```
+   ``` shell
+   genisoimage -output user.iso -volid cidata -joliet -rock user-data meta-data
+   ```
 
 ## 创建和启动虚拟机
 
