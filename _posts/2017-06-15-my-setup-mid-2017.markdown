@@ -4,7 +4,7 @@ layout: post
 date: 2017-06-15 16:31:45
 yun: 删
 comments: true
-tags: edc the_setup
+tags: the_setup
 ---
 #### 硬件
 - MacBook Pro 15 2016 (for personal and office)

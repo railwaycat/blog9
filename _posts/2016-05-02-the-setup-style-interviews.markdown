@@ -3,8 +3,7 @@ layout: post
 title: 工具类的访谈和推荐
 date: '2016-05-02 17:37:45'
 yun: 冬
-tags:
-- the_setup
+tags: the_setup
 ---
 
 最近看[利器](http://liqi.io)的访谈不少。

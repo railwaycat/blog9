@@ -5,7 +5,7 @@ date: 2014-07-21 15:15:05
 yun: 马
 guid: urn:uuid:b5d9dee6-fe1c-4420-a2b2-5272e79e4af6
 comments: true
-tags: [mosh, tmux]
+tags: the_setup
 ---
 
 办公室的无线网络实在是太差，只要一有客户过来，网络里用户激增的时候整个无线就会每隔十几分钟掉一次，于是只好重拾 [Mosh](http://mosh.mit.edu/)。

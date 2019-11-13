@@ -5,7 +5,7 @@ date: 2014-01-14 15:55:07
 yun: 寒
 guid: urn:uuid:ba129917-6ba3-4458-be1e-e1e92a7e4104
 comments: true
-tags: [macos]
+tags: mac
 ---
 
 在 10.9 的 SDK 下编译以前的工程的时候会遇到找不到 Python.framework 的问题。

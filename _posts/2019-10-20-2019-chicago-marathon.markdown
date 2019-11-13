@@ -4,7 +4,7 @@ layout: post
 date: 2019-10-20 20:27:09 -0400
 yun: 哿
 comments: true
-tags: running
+tags: life
 ---
 第一个马拉松。并没有什么特别的感觉。
 

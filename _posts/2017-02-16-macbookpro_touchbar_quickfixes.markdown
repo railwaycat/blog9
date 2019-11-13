@@ -4,7 +4,7 @@ layout: post
 date: 2017-02-16 15:44:51
 yun: 铣
 comments: true
-tags: macos
+tags: mac
 ---
 
 跟一开始的各种 bug，基本没法用相比，更新完 10.12.3 之后系统基本处于大毛病没有小毛病不断的状态。

@@ -4,7 +4,7 @@ layout: post
 date: 2017-09-15 15:50:32
 yun: 删
 comments: true
-tags: ime
+tags: misc
 ---
 
 # 拼音输入

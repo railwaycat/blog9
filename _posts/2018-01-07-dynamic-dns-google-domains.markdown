@@ -4,7 +4,7 @@ layout: post
 date: 2018-01-07 15:48:17
 yun: 虞
 comments: true
-tags: dns google_domains
+tags: tech_notes
 ---
 
 家里有一台机器挂在路由器的后面，通过一个 port forwarding 曝露在公网上。美国的 ISP 运营商其他的不便评说，但至少给公网 IP 地址足够慷慨，虽然是 DHCP 的家用宽带，

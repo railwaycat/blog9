@@ -5,7 +5,7 @@ date: 2015-01-23 11:50:16
 yun: 梗
 guid: urn:uuid:fb673e65-bd27-4c2e-a4ff-ae68e2f64a27
 comments: true
-tags: [misc]
+tags: life
 ---
 
 收到了这样的邮件。

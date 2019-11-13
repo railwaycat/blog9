@@ -3,8 +3,7 @@ layout: post
 title: Emacs tramp hangs when reconnecting
 date: '2016-02-22 21:11:41'
 yun: 养
-tags:
-- emacs
+tags: emacs
 ---
 
 之前大概有接近两年时间都是从 Mac 上 mosh + tmux 到远程 Linux box 然后在终端里用 Emacs；最近开始重拾 Mac 上的 Emacs 和 tramp。没有什么特别的动力驱使，原因的话一是想多用用 Emacs mac port，自己参与维护的自己都不用多少有点说不过去，二是找点新鲜感，另外能显示斜体[^1]和图片看上去也好看点不是么。

@@ -4,7 +4,7 @@ layout: post
 date: 2017-05-22 11:33:31
 yun: 养
 comments: true
-tags: macos
+tags: mac
 ---
 
 我也不知道 Safari 到底是出于什么考虑……

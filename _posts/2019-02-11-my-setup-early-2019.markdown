@@ -4,7 +4,7 @@ layout: post
 date: 2019-02-11 14:44:03 -0500
 yun: 直
 comments: true
-tags: edc the_setup
+tags: the_setup
 ---
 
 原来预计的是每年一更，不过现在看起来距离[上次](/2017/06/15/my-setup-mid-2017.html)已经超过一年了。

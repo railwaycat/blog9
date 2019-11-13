@@ -5,7 +5,7 @@ date: 2014-12-01 16:47:36
 yun: 东
 guid: urn:uuid:f85c5222-99d5-405e-a5ab-822dfa60d277
 comments: true
-tags: [alipay, macos]
+tags: mac
 ---
 
 大概是离国内的险恶互联网环境久了神经太放松，一不小心就着了支付宝插件的道。

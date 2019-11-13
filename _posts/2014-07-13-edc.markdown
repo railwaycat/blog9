@@ -5,7 +5,7 @@ date: 2014-07-13 19:40:26
 yun: 元
 guid: urn:uuid:758f1a19-dc06-4bae-bf52-c99aedf072a8
 comments: true
-tags: [edc]
+tags: the_setup
 ---
 ###目前的：
 

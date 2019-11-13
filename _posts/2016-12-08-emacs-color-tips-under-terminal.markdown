@@ -3,8 +3,7 @@ layout: post
 title: Emacs 在终端下的配色技巧
 date: '2016-12-08 21:52:52'
 yun: '齐'
-tags:
-- emacs
+tags: emacs
 ---
 
 其实也不是什么神奇的技巧(´▽`)ﾉ

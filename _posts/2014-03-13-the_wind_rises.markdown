@@ -5,7 +5,7 @@ date: 2014-03-13 16:22:45
 yun: 元
 guid: urn:uuid:9c643892-38ff-47c0-bf23-d9dbfe6e2b79
 comments: true
-tags: [movie, anime]
+tags: movie
 ---
 
 上个周末在家附近的一个小电影院看的。对于一个日文原声而且接近下映的电影来说，看电影的人算是出奇的多了。不大的放映厅坐满了大半。

@@ -4,7 +4,7 @@ layout: post
 date: 2019-08-31 11:19:06 -0400
 yun: 世
 comments: true
-tags: linux kvm
+tags: linux
 ---
 
 最近有一些东西需要更高级一些的虚拟化，但我又不想在笔记本上跑，只能在 linux 工作站上跑 KVM 了。

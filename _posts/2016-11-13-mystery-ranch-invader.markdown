@@ -3,8 +3,7 @@ layout: post
 title: Mystery Ranch Invader
 date: '2016-11-13 04:02:12'
 yun: '元'
-tags:
-- edc
+tags: the_setup
 ---
 
 这个包主要是为了替换下 5.11 的 Messenger Lima。

@@ -5,7 +5,7 @@ date: 2014-01-06
 yun: 鱼
 guid: urn:uuid:6fe24944-9b7e-4988-9ae4-ebfef951e617
 comments: true
-tags: [blog]
+tags: blog
 ---
 说是想选一个基本不要自己干预的费心的 blog 引擎，然后 Disqus 也不喜欢，最好连评论都得在本地才好，于是选了 Wordpress + Marsedit 的本地/服务器：
 

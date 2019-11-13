@@ -5,7 +5,7 @@ date: 2014-05-19 19:28:25
 yun: 皓
 guid: urn:uuid:c704aa39-ff6d-44d1-b9f3-94fc62bcf092
 comments: true
-tags: [blog]
+tags: blog
 ---
 
 给页面的日期加上了[韵目代日](http://zh.wikipedia.org/wiki/%E9%9F%B5%E7%9B%AE%E4%BB%A3%E6%97%A5)的记法，在日期后面…

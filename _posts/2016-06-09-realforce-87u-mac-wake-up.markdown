@@ -3,8 +3,7 @@ layout: post
 title: Realforce 87u Mac 唤醒
 date: '2016-06-09 21:45:51'
 yun: 佳
-tags:
-- macos
+tags: mac
 ---
 
 这确实是个稍微有点烦人的问题，不知道有多少人遇到过。

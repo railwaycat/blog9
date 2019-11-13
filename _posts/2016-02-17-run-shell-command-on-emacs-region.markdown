@@ -3,8 +3,7 @@ layout: post
 title: Run shell command in Emacs
 date: '2016-02-17 17:28:02'
 yun: 篠
-tags:
-- emacs
+tags: emacs
 ---
 
 两个快捷键：

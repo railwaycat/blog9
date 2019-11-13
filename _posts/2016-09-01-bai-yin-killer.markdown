@@ -3,8 +3,7 @@ layout: post
 title: 白银市连环杀人案时间轴
 date: '2016-09-01 01:20:55'
 yun: '东'
-tags:
-- project_timelines
+tags: project_timelines
 ---
 
 [时间轴](http://timelines.x8128.com/baiyin_killer/aeontimeline.html)

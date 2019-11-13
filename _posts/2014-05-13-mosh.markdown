@@ -5,7 +5,7 @@ date: 2014-05-13 14:11:30
 yun: 元
 guid: urn:uuid:66b2b52f-3dd1-4411-b6ea-b65ac3574b82
 comments: true
-tags: [mosh, linux]
+tags: linux
 ---
 
 其他看起来都很不错，唯独缺了滚动（scroll up/down）的功能，一下子就导致它基本没什么可用性了。

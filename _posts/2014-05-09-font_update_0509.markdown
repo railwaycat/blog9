@@ -5,7 +5,7 @@ date: 2014-05-09 16:52:07
 yun: 佳
 guid: urn:uuid:d7fc2149-f31e-440e-92da-7be940004c2e
 comments: true
-tags: [fonts]
+tags: blog
 ---
 
 两个变化：

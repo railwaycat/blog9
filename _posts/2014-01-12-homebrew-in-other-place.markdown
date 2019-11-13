@@ -5,7 +5,7 @@ date: 2014-01-12 20:20:20
 yun: 文
 guid: urn:uuid:294c797a-0229-4be7-af58-78da301b2a5c
 comments: true
-tags: [homebrew]
+tags: mac
 ---
 我比较喜欢 Homebrew 的一点是它对非自己系统里的包能稍微宽容一点，不像 Macports，我至今没找到让 Macports 认识 MacTeX 的方法[^ft]… 但我没法忍受 Homebrew 自作聪明的占领 `/usr/local/` 还修改权限。`/usr/local/` 跟贫乳一样是稀缺资源，我还是倾向于把它留给自己修改和编译的一些包。
 

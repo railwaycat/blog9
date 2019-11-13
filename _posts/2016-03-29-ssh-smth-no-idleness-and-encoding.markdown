@@ -3,8 +3,7 @@ layout: post
 title: SSH 水木的防发呆和编码
 date: '2016-03-29 03:55:40'
 yun: 艳
-tags:
-- bbs
+tags: linux
 ---
 
 从 Terminal 下面 ssh 去水木站的话主要是两个问题，一个是编码，一个是防发呆。

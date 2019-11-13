@@ -4,7 +4,7 @@ layout: post
 date: 2017-10-14 21:08:29
 yun: 寒
 comments: true
-tags: launchbar macos
+tags: mac
 ---
 
 # #0

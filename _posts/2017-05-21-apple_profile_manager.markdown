@@ -4,7 +4,7 @@ layout: post
 date: 2017-05-21 10:06:43
 yun: 马
 comments: true
-tags: macos ios
+tags: mac
 ---
 
 [https://support.apple.com/profile-manager](https://support.apple.com/profile-manager)

@@ -5,7 +5,7 @@ date: 2014-01-12 10:43:23
 yun: 文
 guid: urn:uuid:964bf80b-c102-4ed5-878f-2e8919a5792e
 comments: true
-tags: [shell]
+tags: linux
 ---
 
 我倒是第一次遇到这个问题，在 `rm *.log` 大概有一万多个小文件的时候。

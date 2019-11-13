@@ -3,10 +3,7 @@ layout: post
 title: Alfred/Applescript 管理和切换 Google Chrome 帐号
 date: '2016-08-10 01:29:08'
 yun: '灰'
-tags:
-- macos
-- chrome
-- applescript
+tags: mac
 ---
 
 因为 Safari 的书签功能太傻b所以转用 Google Chrome。感觉 Safari 完全没有把书签当成一个第一梯队的功能：当前页面加入书签至少要点击两次；书签不支持排序；同名书签还可以重复…书签数量上去之后实在是忍无可忍。

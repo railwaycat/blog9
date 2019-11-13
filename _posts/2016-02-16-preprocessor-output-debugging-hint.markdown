@@ -3,9 +3,7 @@ layout: post
 title: Gcc preprocessor output debugging hint
 date: '2016-02-16 16:08:10'
 yun: 铣
-tags:
-- c
-- gcc
+tags: tech_notes
 ---
 
 官方文档： https://gcc.gnu.org/onlinedocs/cpp/Preprocessor-Output.html

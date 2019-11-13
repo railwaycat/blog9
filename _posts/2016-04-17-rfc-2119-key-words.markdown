@@ -3,8 +3,7 @@ layout: post
 title: RFC 2119 - Key Words
 date: '2016-04-17 04:57:27'
 yun: 篠
-tags:
-- rfc
+tags: rfc
 ---
 
 https://tools.ietf.org/html/rfc2119
