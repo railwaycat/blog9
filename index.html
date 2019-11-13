@@ -12,12 +12,12 @@ permalink: index.html
   </ul>
 
   <hr>
-  <h2 class="page-heading">Posts</h1>
+  <h3 class="page-heading">文章列表</h3>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>&nbsp;
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           <p>
       </li>
