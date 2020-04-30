@@ -4,7 +4,7 @@ layout: post
 date: 2017-12-03 19:42:24
 yun: 江
 comments: true
-tags: life
+tags: 生活
 ---
 
 终于有精力可以停一下讲讲这一个月的经历了。

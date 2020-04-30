@@ -3,7 +3,7 @@ layout: post
 title: '2016'
 date: '2017-01-08 23:28:01'
 yun: "齐"
-tags: life
+tags: 生活
 ---
 
 > 对酒当歌  

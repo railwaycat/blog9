@@ -4,7 +4,7 @@ layout: post
 date: 2019-07-26 11:19:58 -0400
 yun: 宥
 comments: true
-tags: emacs
+tags: 技术 Emacs
 ---
 
 偶然发现了这个 Emacs 的主题，感觉很有意思：[Tao-theme](https://github.com/11111000000/tao-theme-emacs)。

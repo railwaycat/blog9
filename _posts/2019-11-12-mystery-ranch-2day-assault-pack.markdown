@@ -4,7 +4,7 @@ layout: post
 date: 2019-11-12 17:09:33 -0500
 yun: 文
 comments: true
-tags: the_setup
+tags: 生活 TheSetup
 ---
 神秘农场的两日突击包是个挺少被提到的包，虽然已经上架卖了大半年，但各种评测都很少，中文的更是罕见。
 

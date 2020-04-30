@@ -3,7 +3,7 @@ layout: post
 title: Far Harbor 实地考察之旅
 date: '2016-07-01 19:33:59'
 yun: 东
-tags: life
+tags: 生活 Travel
 ---
 
 Far Harbor 的原型是缅因州的 Bar Harbor 镇，以及 Acadia 国家公园的部分。整体上来说，DLC 地图跟现实是很接近的。

@@ -3,9 +3,8 @@ title: 同步方案
 layout: post
 date: 2014-07-05 14:25:30
 yun: 微
-guid: urn:uuid:f8a43f10-4980-4c82-9afb-c788a53db1e9
 comments: true
-tags: the_setup
+tags: 技术 TheSetup
 ---
 最近发生的一些事情让我近乎病态地放弃对所有第三方的文件存储服务的信任。说得再好听的用户协议也会在利益和集体权益的面前轻松败下阵来，与其把自己的私人文件安全寄托在他人的人品上，还不如直接抓在自己手里。
 

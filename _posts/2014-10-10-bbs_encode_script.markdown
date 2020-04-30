@@ -3,9 +3,8 @@ title: BBS 转码脚本
 layout: post
 date: 2014-10-10 15:04:43
 yun: 灰
-guid: urn:uuid:5e03fe71-7354-4e5b-b6f1-6aca8469bfde
 comments: true
-tags: linux
+tags: 技术 BBS Linux
 ---
 
 自从把主力连接变成 mosh 之后，随时合上笔记本然后到处乱跑就成了习惯。

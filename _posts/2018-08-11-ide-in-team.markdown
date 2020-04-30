@@ -4,7 +4,7 @@ layout: post
 date: 2018-08-11 15:08:51 -0400
 yun: 直
 comments: true
-tags: the_setup
+tags: 技术 TheSetup
 ---
 
 前几天组内有个开发工具的使用统计，不清楚原意，可能是公司想知道需要购买的商业软件授权的数量吧，但结果还是挺有意思的。

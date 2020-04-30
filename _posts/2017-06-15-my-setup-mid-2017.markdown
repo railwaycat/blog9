@@ -4,7 +4,7 @@ layout: post
 date: 2017-06-15 16:31:45
 yun: 删
 comments: true
-tags: the_setup
+tags: 生活 TheSetup
 ---
 #### 硬件
 - MacBook Pro 15 2016 (for personal and office)
@@ -65,6 +65,6 @@ tags: the_setup
   的 [Totem](http://inception.wikia.com/wiki/Totem) 吧。
 - 软件基本上完全没有变化，Unix 上这些环境一旦折腾到位可以直接用到地老天荒`ˊ_>ˋ`
 - 主力背包从单肩换成了双肩，随身的小刀换成了蚀刻
-  了[中二标语](/content/images/2017/06/edc_benchmade_940.jpg)的
-  Benchmade 940
+  了中二标语的Benchmade 940  
+  ![](/content/images/2017/06/edc_benchmade_940.jpg)
 

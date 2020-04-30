@@ -3,9 +3,8 @@ title: VPS 再折腾
 layout: post
 date: 2014-09-22 16:15:28
 yun: 养
-guid: urn:uuid:2c15a39d-4f3f-412f-bacc-bbc95b55f6e9
 comments: true
-tags: linux
+tags: 技术 Linux
 ---
 
 因为受不了 ubuntu 整日的各种提醒，手贱尝试了一把跨 LTS 版本升级 —— 不出所料地挂掉了。

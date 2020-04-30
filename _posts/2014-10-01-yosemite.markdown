@@ -3,9 +3,8 @@ title: Yosemite
 layout: post
 date: 2014-10-01 16:41:33
 yun: 东
-guid: urn:uuid:ed52b19e-3166-4274-a9be-78fdf2328bfa
 comments: true
-tags: mac
+tags: 技术 Mac
 ---
 
 装上了 OS X 10.10 Yosemite。目前看来一切正常，除了 Lync 还是会经常自动 logout 之外。

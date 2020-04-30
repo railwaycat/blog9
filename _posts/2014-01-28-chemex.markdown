@@ -3,9 +3,8 @@ title: Chemex
 layout: post
 date: 2014-01-28 18:05:21
 yun: 勘
-guid: urn:uuid:71d7e145-94e6-46db-b4ef-5e24c7823cde
 comments: true
-tags: life
+tags: 生活 Coffee
 ---
 
 第一次用 Chemex 咖啡壶。

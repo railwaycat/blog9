@@ -3,7 +3,7 @@ layout: post
 title: zshrc 整理
 date: '2016-06-09 21:36:16'
 yun: 佳
-tags: the_setup
+tags: 技术 TheSetup
 ---
 
 之前是太懒——或者说是太勤快了，`zshrc` 文件基本上是每种机器一个，然后有一部分共用代码写到单独的文件里分别 `source`。最近因为配置本身出了点问题，这才真正下手把 `zshrc` 好好整理了一下。

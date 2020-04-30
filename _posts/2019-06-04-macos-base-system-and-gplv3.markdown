@@ -4,7 +4,7 @@ layout: post
 date: 2019-06-04 11:45:13 -0400
 yun: 支
 comments: true
-tags: mac
+tags: 技术 Mac
 ---
 
 留意到 macOS 10.15 Catalina beta 的 [release notes](https://developer.apple.com/documentation/macos_release_notes/macos_10_15_beta_release_notes/) 里有这样一段话：

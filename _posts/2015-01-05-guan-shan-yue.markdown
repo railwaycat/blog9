@@ -3,9 +3,8 @@ title: 关山月
 layout: post
 date: 2015-01-05 20:19:31
 yun: 微
-guid: urn:uuid:fe9da3f4-4f64-4494-8e54-b365d80d1c32
 comments: true
-tags: 韵
+tags: 笔记
 ---
 
 >明月出天山  

@@ -4,7 +4,7 @@ layout: post
 date: 2017-02-24 10:57:55
 yun: 迥
 comments: true
-tags: the_setup
+tags: 技术
 ---
 ## 目前的策略
 目前的策略是每台机器有自己的 ssh key，ssh key 不离开机器。这样的话整体上安全性是可以保证的，出了什么问题也可以单独 revoke 某台机器的访问。缺点的话是折腾`(._.)`：

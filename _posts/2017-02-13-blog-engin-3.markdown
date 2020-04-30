@@ -4,7 +4,7 @@ layout: post
 date: 2017-02-13 13:45:29
 yun: 元
 comments: true
-tags: blog
+tags: 技术 Blog
 ---
 之前用了有大概一年多的 Ghost，Ghost 自己的 hosting 服务。当时应该是以不是很贵的价钱按年买的，到现在虽然还可以用当时的价钱续费，而正常的 plan 价钱对于业余用户来说已经是贵的离谱了。但是跟它提供的服务相比付出的价钱实在是不相衬。另外 Ghost hosting 的 SSL 支持由 CloudFlare 提供，用户需要把自己的域名 DNS 转入 CloudFlare 才能做到 subdomain 支持 SSL；但这样的话 MX 记录就无法保持，邮件转发会全部失效。
 

@@ -3,7 +3,7 @@ layout: post
 title: Emacs narrowing
 date: '2016-07-03 19:25:29'
 yun: 江
-tags: emacs
+tags: 技术 Emacs
 ---
 
 Emacs narrowing 可以只显示 buffer 的一部分而隐藏其他，不过无意中触发出来的话往往会把不熟悉这个功能的用户吓一跳（比如我`(｡-_-｡)`

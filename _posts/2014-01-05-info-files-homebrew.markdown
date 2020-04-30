@@ -3,9 +3,8 @@ layout: post
 title:  "info files for Homebrew"
 date: 2014-01-05 23:20
 yun: 微
-guid: urn:uuid:efa5532d-62d8-4d7d-a869-7a734b2dd3d6
 comments: true
-tags: mac
+tags: 技术 Emacs Homebrew Mac
 ---
 
 Homebrew 默认是不安装各个 formula 的 info 文件的，需要安装的时候需要这样一下：

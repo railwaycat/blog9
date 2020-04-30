@@ -4,7 +4,7 @@ layout: post
 date: 2019-05-30 12:41:07 -0400
 yun: 卅
 comments: true
-tags: emacs
+tags: 技术 Emacs
 ---
 
 接[上篇](/2016/12/08/emacs-color-tips-under-terminal.html)。

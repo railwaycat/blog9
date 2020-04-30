@@ -4,7 +4,7 @@ layout: post
 date: 2019-10-22 14:46:22 -0400
 yun: 养
 comments: true
-tags: emacs
+tags: 技术 Emacs
 ---
 
 Emacs 自带 org-mode——只是版本会落后 org-mode 的最新版本一段时间。所以很多人会选择从 elpa 或者是 org 的源安装最新的版本。

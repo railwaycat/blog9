@@ -4,7 +4,7 @@ layout: post
 date: 2017-05-05 14:11:30
 yun: 微
 comments: true
-tags: mac
+tags: 技术 Mac
 ---
 
 # 0

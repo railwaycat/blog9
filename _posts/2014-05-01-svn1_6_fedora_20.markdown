@@ -3,9 +3,8 @@ title: Fedora 20 上编译安装 svn 1.6.x
 layout: post
 date: 2014-05-01 16:42:19
 yun: 东
-guid: urn:uuid:d55eb957-c556-4f04-98b1-d2b4fd4b4e9b
 comments: true
-tags: linux
+tags: 技术 Linux
 ---
 
 svn 的向下兼容还真是个麻烦事情。

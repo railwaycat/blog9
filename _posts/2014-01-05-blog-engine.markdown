@@ -3,9 +3,8 @@ layout: post
 title:  "Blog 引擎挑选"
 date: 2014-01-02 19:23
 yun: 冬
-guid: urn:uuid:c4a14f53-6fc2-464d-80bb-658b1694ed13
 comments: true
-tags: blog
+tags: 技术 Blog
 ---
 
 * 支持 markdown 或者 org-mode

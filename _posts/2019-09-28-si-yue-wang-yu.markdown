@@ -4,7 +4,7 @@ layout: post
 date: 2019-09-28 12:33:39 -0400
 yun: 勘
 comments: true
-tags: game
+tags: 笔记
 ---
 通关了《返校》。
 

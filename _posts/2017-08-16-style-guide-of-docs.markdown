@@ -4,7 +4,7 @@ layout: post
 date: 2017-08-16 17:15:31
 yun: 铣
 comments: true
-tags: misc
+tags: 技术
 ---
 
 [doc guide](https://github.com/google/styleguide/tree/gh-pages/docguide)

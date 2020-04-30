@@ -3,7 +3,7 @@ layout: post
 title: 2016 阿拉斯加之行的装备
 date: '2016-04-16 01:01:34'
 yun: 铣
-tags: the_setup
+tags: 生活 TheSetup Travel
 ---
 
 毕竟不是第一次去，相比较去年的装备已经精简了很多。

@@ -3,9 +3,8 @@ title: 24小时
 layout: post
 date: 2014-05-11 22:49:00
 yun: 真
-guid: urn:uuid:0639be8d-0bd9-4f5f-9de4-05a8fbb56397
 comments: true
-tags: tv
+tags: 笔记 TV
 ---
 
 > 从第一季到第八季，Jack 像希腊悲剧一样诠释了一个人类的极度堕落。

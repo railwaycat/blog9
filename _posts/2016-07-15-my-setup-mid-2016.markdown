@@ -3,7 +3,7 @@ layout: post
 title: My Setup Mid 2016
 date: '2016-07-15 23:04:22'
 yun: 删
-tags: the_setup
+tags: 生活 TheSetup
 ---
 
 #### 硬件
