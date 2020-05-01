@@ -28,8 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://9.obelus.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sinxccc
 github_username:  railwaycat
-# disqus:
-#   shortname: obelus-blog
+disqus:
+  shortname: obelus-blog
 
 # Build settings
 theme: minima
