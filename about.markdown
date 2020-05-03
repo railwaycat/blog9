@@ -17,4 +17,8 @@ comments: true
 不认识我但希望取得联系的，请直接[电邮](mailto:xin@saturnpole.com)
 
 ¶  
-[My setup mid 2016](/2016/07/15/my-setup-mid-2016.html), [My setup mid 2017](/2017/06/15/my-setup-mid-2017.html) and [My setup early 2019](/2019/02/11/my-setup-early-2019.html), if you are interested.
+我*大体*上会每年更新一下自己日常用和携带的装备，这是过往的：
+
+- [My setup early 2019](/2019/02/11/my-setup-early-2019.html)
+- [My setup mid 2017](/2017/06/15/my-setup-mid-2017.html)
+- [My setup mid 2016](/2016/07/15/my-setup-mid-2016.html)
