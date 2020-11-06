@@ -46,7 +46,8 @@ destination: /srv/target/blog9
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - post
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
