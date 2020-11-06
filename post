@@ -4,6 +4,20 @@
 
 # usage: ./post "title" [directory]
 
+def get_yun()
+  time = Time.now
+  days = ["东", "冬", "江", "支", "微", "鱼", "虞", "齐", "佳", "灰", "直", "文", "元", "寒", "删", "铣", "篠", "巧", "皓", "哿", "马", "养", "梗", "迥", "有", "宥", "沁", "勘", "艳", "卅", "世"]
+  return days[time.day - 1]
+end
+
+def get_ganzhi()
+  time = Time.now
+  months = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
+  gan = ["庚", "辛", "壬", "癸", "甲", "乙", "丙", "丁", "戊", "己"]
+  zhi = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"]
+  return gan[time.year%10] + zhi[time.year%12] + " " + months[time.month - 1]
+end
+
 def new_post(title, place)
   time = Time.now
   filename = "#{place}/" + time.strftime("%Y-%m-%d-") + title + '.markdown'
@@ -12,14 +26,9 @@ def new_post(title, place)
     return
   end
   date = `date '+%Y-%m-%d %H:%M:%S %z' | tr -d "\n"`
-  
-  # months = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
-  days = ["东", "冬", "江", "支", "微", "鱼", "虞", "齐", "佳", "灰", "直", "文", "元", "寒", "删", "铣", "篠", "巧", "皓", "哿", "马", "养", "梗", "迥", "有", "宥", "沁", "勘", "艳", "卅", "世"]
-  # gan = ["庚", "辛", "壬", "癸", "甲", "乙", "丙", "丁", "戊", "己"]
-  # zhi = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"]
-  # yun = gan[time.year%10] + zhi[time.year%12] + " " + months[time.month - 1] + days[time.day-1]
-  yun = days[time.day-1]
-  
+
+  yun = get_yun()
+
   File.open(filename, "wb") do |f|
     f << <<-EOS
 ---
@@ -28,7 +37,7 @@ layout: post
 date: #{date}
 yun: #{yun}
 comments: true
-tags: 
+tags:
 ---
 
 
@@ -43,9 +52,27 @@ EOS
   # `el #{filename}`
 end
 
-prepath = "."
-if ARGV.length > 1
-  prepath = ARGV[1]
+def amend_post(filepath)
+  date = `date '+%Y-%m-%d %H:%M:%S %z' | tr -d "\n"`
+  yun = get_yun()
+
+  blog = File.readlines(filepath)
+  blog[3] = "date: #{date}" << $/
+  blog[4] = "yun: #{yun}" << $/
+  File.open(filepath, 'w') { |f| f.write(blog.join) }
 end
 
-new_post(ARGV[0], prepath)
+if ARGV.length == 1
+  prepath = "."
+  new_post(ARGV[0], prepath)
+elsif ARGV.length == 2
+  if ARGV[0] == "-m"
+    filepath = ARGV[1]
+    amend_post(filepath)
+  else
+    prepath = ARGV[1]
+    new_post(ARGV[0], prepath)
+  end
+else
+  puts "wrong argument."
+end
