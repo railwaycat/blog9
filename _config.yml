@@ -47,7 +47,7 @@ destination: /srv/target/blog9
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - post
+  - genpost
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
